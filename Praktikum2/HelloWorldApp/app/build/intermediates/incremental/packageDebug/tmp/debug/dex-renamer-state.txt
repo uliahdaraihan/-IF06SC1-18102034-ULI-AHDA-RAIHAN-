@@ -1,0 +1,7 @@
+#Tue Oct 27 20:51:42 ICT 2020
+base.0=D\:\\github\\Meet1\\HelloWorldApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\github\\Meet1\\HelloWorldApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
