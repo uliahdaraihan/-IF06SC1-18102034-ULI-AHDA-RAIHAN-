@@ -10,6 +10,16 @@
     <string-array name="data_name">
         <item>Wisata Pagubugan</item>
         <item>The Village Purwokerto</item>
+        <item>Lokawisata Baturraden </item>
+        <item>Curug Jenggala</item>
+        <item>Curug Gomblang</item>
+        <item>Pantai Menganti</item>
+        <item>Bukit Hud</item>
+        <item>Gumuk Pasir Parangkusumo</item>
+        <item>Pantai Jogan GunungKidul</item>
+        <item>Kebun Buah Mangunan</item>
+        <item>Bukit Sikunir</item>
+        <item>Telaga Warna</item>
     </string-array>
     <string-array name="data_description">
          <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
@@ -28,9 +38,70 @@
             (burung, kelinci, sapi, domba), menunggang kuda, foto-foto dengan kostum Belanda, dan masih banyak
             lagi!
         </item>
+        <item> Lokawisata Baturraden terletak di sebelah selatan Gunung Slamet memiliki udara sejuk dan cenderung
+            bertambah dingin di malam hari. Selain memiliki panorama alam yang cantik, Baturraden juga memiliki
+            banyak legenda rakyat, salah satunya cerita lutung kasarung yang terkenal.
+        </item>
+        <item>Curug Jenggala adalah air terjun yang berlokasi di Ketenger, Baturaden, Banyumas. Air terjun ini
+            memiliki ketinggian 30 meter dari permukaan tanah. Curug ini mempunyai tiga air terjun yang tingginya
+            sejajar, dengan air terjun yang di tengah memiliki arus yang paling deras
+        </item>
+        <item>Curug Gomblang adalah salah satu air terjun yang berlokasi di lereng Gunung Slamet. Lokasi yang jauh
+            di dalam hutan lindung pemerintah, membuat Curug Gomblang masih alami dan nyaman untuk dinikmati.
+            Walaupun tidak terlalu tinggi namun debit air di Curug cukup deras.
+        </item>
+        <item>Pantai Menganti merupakan sebuah pantai yang berlokasi di Desa Karangduwur, Kecamatan Ayah, Kabupaten
+            Kebumen, Jawa Tengah. Pantai ini merupakan salah satu pantai terindah di Jawa Tengah. Pasir pantainya
+            yang berwarna putih serta terdapat panorama perbukitan juga tebing karst yang indah
+        </item>
+        <item>Tepatnya di Kebumen bagian selatan, dimana keindahan alamnya sangat menakjubkan. Berbatasan langsung
+            dengan Samudera Hindia memberikan keuntungan tersendiri bagi Bukit Hud. Bukan hanya pantai yang hijau
+            dan alami, tapi juga bukit yang menawan. Dimana dari bukit ini, wisatawan dapat menikmati pemandangan
+            pantai dengan ombak besarnya yang bergulung – gulung.
+        </item>
+        <item>Gundukan pasir yang terletak di Kabupaten Bantul ini menjadi kebanggaan warga Yogyakarta. Betapa
+            tidak, gumuk pasir ini hanya ada segelintir jumlahnya di seluruh dunia.  Mayoritas wisatawan hanya
+            tahu bahwa Gumuk Pasir Parangkusumo unik dan bisa digunakan untuk sandboarding. Namun, ada beberapa
+            fakta unik terutama secara geologis yang membedakan Parangkusumo dengan gumuk-gumuk pasir lainnya.
+        </item>
+        <item>Biasanya, air terjun hanya ada di perbukitan atau berada dalam ketinggian. Tetapi, berbeda bila
+            anda mengunjungi pantai Jogan yang letaknya berada di Gunung Kidul. Kita akan disuguhkan dengan dua
+            pesona alam sekaligus. Ada air terjun dan juga pantai dalam satu kawasan. Keindahan inilah yang jarang
+            bisa di temui oleh wisatawan. Saat menginjakkan kaki di wisata pantai Jogan. Kita akan langsung
+            disuguhkan dengan tebing-tebing nan mengesankan dan menawan hati.
+        </item>
+        <item>Berkembangnya tempat wisata di Jogja membuat kebun buah Mangunan pun semakin dikenal oleh masyarakat
+            luas. Kebun buah ini seakan mampu membius semua mata yang berkunjung ke tempat ini dengan keindahan
+            alam yang luar biasa. Tidak ada tandingannya. Apalagi, saat pagi hari tiba. Sungguh mengesankan sekali.
+            Berada di ketinggian kurang lebih 200 mdpl, membuat tempat ini pun dijuluki sebagai negeri diatas awan.
+            Dengan pemandangan kabut yang terbentuk tepat di depan mata, keindahannya memang luar biasa. Bisa dikatakan
+            tempat wisata ini satu tipe dengan Kalibiru.
+        </item>
+        <item>Bukit Sikunir menjadi bagian tak terpisahkan dari dataran tinggi Dieng, Wonosobo, Jawa Tengah. Seperti
+            halnya Gunung Prau, bukit ini juga tak kalah menarik untuk dikunjungi. Mulai 1 Juli 2020, Bukit Sikunir
+            telah dibuka kembali untuk pendakian. Namun, wisatawan yang berkunjung harus menerapkan protokol kesehatan
+            yang berlaku salah satunya hanya bisa dikunjungi wisatawan yang berasal dari Provinsi Jawa Tengah dan
+            Daerah Istimewa Yogyakarta (DIY).
+        </item>
+        <item>Telaga Warna Dieng adalah salah satu objek wisata yang berada di kawasan Dataran Tinggi Dieng, Kabupaten
+            Wonosobo, Jawa Tengah.Telaga Warna berada di ketinggian 2000 meter di atas permukaan laut, dan dikelilingi
+            oleh bukit-bukit tinggi yang menambah pesona keindahan alam sekitar telaga warna.
+        </item>
     </string-array>
     <string-array name="data_photo">
-    <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
-    <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2020/03/21-2-by-@The-Village-Purwokerto-740x740.jpg</item>
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2020/03/21-2-by-@The-Village-Purwokerto-740x740.jpg</item>
+        <item>https://www.hargatiket.net/wp-content/uploads/2019/01/harga-tiket-lokawisata-baturraden.jpg </item>
+        <item>https://www.nativeindonesia.com/wp-content/uploads/2019/08/curug-jenggala.jpg</item>
+        <item>https://www.jejakpiknik.com/wp-content/uploads/2018/05/Screenshot_126-1-630x380.jpg</item>
+        <item>https://www.superadventure.co.id/uploads/news/2018/09/25/31b1481dcc7c.jpg</item>
+        <item>https://3.bp.blogspot.com/-DbK-GrUdjEQ/XM2TV1v1lTI/AAAAAAAABzQ/xgSOOx4qA90T7gABEl3Z0RvhleWubWEOACLcBGAs/s1600/harga-tiket-masuk-bukit-hud.jpg</item>
+        <item>https://media.suara.com/pictures/970x544/2020/07/17/64950-gumuk-pasir-yogyakarta-dok-istimewa.jpg</item>
+        <item>https://www.nativeindonesia.com/wp-content/uploads/2019/05/Pantai-Jogan.jpeg</item>
+        <item>https://tripjogja.co.id/wp-content/uploads/2016/04/Kebun-Buah-Mangunan.jpg</item>
+        <item>https://cdn-2.tstatic.net/travel/foto/bank/images2/bukit-sikunir-11.jpg</item>
+        <item>https://egindo.b-cdn.net/wp-content/uploads/bb-plugin/cache/telaga-warna-dieng_20180710_160752-panorama.jpg</item>
+
+
     </string-array>
 </resources>
