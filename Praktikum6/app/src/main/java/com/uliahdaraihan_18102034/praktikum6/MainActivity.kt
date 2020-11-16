@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.uliahdaraihan_18102034.praktikum6.adapter.CardViewMyDataAdapter
 import com.uliahdaraihan_18102034.praktikum6.adapter.GridMyDataAdapter
 import com.uliahdaraihan_18102034.praktikum6.adapter.ListMyDataAdapter
 import kotlinx.android.synthetic.main.activity_main.*
@@ -48,6 +49,11 @@ class MainActivity : AppCompatActivity() {
         rv_mydata.adapter = gridMyDataAdapter
     }
 
+    private fun showRecyclerCardView() {
+        rv_mydata.layoutManager = LinearLayoutManager(this)
+        val cardViewMyDataAdapter = CardViewMyDataAdapter (list)
+        rv_mydata.adapter = cardViewMyDataAdapter
+    }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu, menu)
@@ -66,8 +72,11 @@ class MainActivity : AppCompatActivity() {
                 showRecyclerGrid()
             }
             R.id.action_cardview -> {
+                showRecyclerCardView()
             }
         }
     }
+
+
 
 }
