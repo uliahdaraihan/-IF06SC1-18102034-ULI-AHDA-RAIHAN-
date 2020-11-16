@@ -31,4 +31,5 @@ class ListMyDataAdapter(private val listMyData: ArrayList<MyData>) :
                 tv_item_description.text = myData.description
             }
         }
-    } }
+    }
+}
