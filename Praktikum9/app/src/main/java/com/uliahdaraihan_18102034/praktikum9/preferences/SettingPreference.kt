@@ -1,6 +1,6 @@
 package com.uliahdaraihan_18102034.praktikum9.preferences
 
-import android.bluetooth.le.AdvertiseData
+//import android.bluetooth.le.AdvertiseData
 import android.content.Context
 import com.uliahdaraihan_18102034.praktikum9.data.SettingModel
 
