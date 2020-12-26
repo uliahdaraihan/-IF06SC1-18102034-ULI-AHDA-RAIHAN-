@@ -9,6 +9,8 @@
     <string name="default_email">No Email</string>
     <string name="default_phone">No Phone Number</string>
     <string name="default_age">No Age</string>
+    <string name="default_motto">No Motto</string>
+    <string name="default_address">No Address</string>
     <string name="default_theme">System Default</string>
     <string name="setting">Setting</string>
     <string name="main_title">Dashboard</string>
@@ -21,4 +23,6 @@
     <string name="field_required">Kolom Tidak Boleh Kosong</string>
     <string name="email_is_not_valid">Email Tidak Valid</string>
     <string name="field_digit_only">Kolom Hanya Untuk Angka</string>
+    <string name="motto">Motto Hidup</string>
+    <string name="address">Alamat</string>
 </resources>

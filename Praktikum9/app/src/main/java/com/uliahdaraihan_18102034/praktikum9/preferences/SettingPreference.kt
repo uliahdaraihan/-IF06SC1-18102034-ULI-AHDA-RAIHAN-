@@ -1,8 +1,8 @@
 package com.uliahdaraihan_18102034.praktikum9.preferences
 
+import android.bluetooth.le.AdvertiseData
 import android.content.Context
 import com.uliahdaraihan_18102034.praktikum9.data.SettingModel
-
 
 
     internal class SettingPreference(context: Context) {
@@ -12,6 +12,8 @@ import com.uliahdaraihan_18102034.praktikum9.data.SettingModel
             private const val EMAIL = "email"
             private const val AGE = "age"
             private const val PHONE_NUMBER = "phone"
+            private const val MOTTO = "motto_hidup"
+            private const val ADDRESS = "alamat"
             private const val THEME = "theme"
         }
 
@@ -22,6 +24,8 @@ import com.uliahdaraihan_18102034.praktikum9.data.SettingModel
             editor.putString(EMAIL, value.email)
             editor.putInt(AGE, value.age)
             editor.putString(PHONE_NUMBER, value.phoneNumber)
+            editor.putString(MOTTO, value.motto)
+            editor.putString(ADDRESS, value.address)
             editor.putBoolean(THEME, value.isDarkTheme)
             editor.apply()
         }
@@ -31,6 +35,8 @@ import com.uliahdaraihan_18102034.praktikum9.data.SettingModel
             model.email = preferences.getString(EMAIL, "")
             model.age = preferences.getInt(AGE, 0)
             model.phoneNumber = preferences.getString(PHONE_NUMBER, "")
+            model.motto = preferences.getString(MOTTO, "")
+            model.address = preferences.getString(ADDRESS, "")
             model.isDarkTheme = preferences.getBoolean(THEME, false)
             return model
         }

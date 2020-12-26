@@ -100,31 +100,61 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/tv_theme"
+        android:text="@string/motto"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
     <TextView
-        android:id="@+id/tv_theme"
+        android:id="@+id/tv_motto"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="@+id/tv_age"
         app:layout_constraintStart_toStartOf="@+id/tv_age"
         app:layout_constraintTop_toBottomOf="@+id/tv_age"
-        android:text="@{settingModel.isDarkTheme == true ? @string/dark_theme : @string/light_theme}" />
-    <Button
-        android:id="@+id/btn_save"
-        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="@{TextUtils.isEmpty(settingModel.name) ? @string/default_motto : settingModel.motto}" />
+
+    <TextView
+        android:id="@+id/textView6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/setting"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        android:onClick="@{() -> act.openSetting()}"/>
+        android:layout_marginTop="8dp"
+        android:text="@string/address"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_motto"
+        app:layout_constraintStart_toStartOf="@+id/tv_motto"
+        app:layout_constraintTop_toBottomOf="@+id/tv_motto"
+        android:text="@{TextUtils.isEmpty(settingModel.name) ? @string/default_address : settingModel.address}" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/tv_theme"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/tv_theme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_address"
+        app:layout_constraintStart_toStartOf="@+id/tv_address"
+        app:layout_constraintTop_toBottomOf="@+id/tv_address"
+        android:text="@{settingModel.isDarkTheme == true ? @string/dark_theme : @string/light_theme}" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

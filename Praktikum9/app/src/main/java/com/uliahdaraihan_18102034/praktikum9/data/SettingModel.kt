@@ -10,5 +10,7 @@ import kotlinx.android.parcel.Parcelize
         var email: String? = null,
         var age: Int = 0,
         var phoneNumber: String? = null,
+        var motto: String? = null,
+        var address: String? = null,
         var isDarkTheme: Boolean = false
     ): Parcelable
