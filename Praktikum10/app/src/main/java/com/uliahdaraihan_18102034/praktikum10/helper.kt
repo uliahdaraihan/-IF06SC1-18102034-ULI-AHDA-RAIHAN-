@@ -33,8 +33,10 @@ object helper {
                 val title = getString(getColumnIndexOrThrow(DatabaseContract.QuoteColumns.TITLE))
                 val description = getString(getColumnIndexOrThrow(DatabaseContract.QuoteColumns.DESCRIPTION))
                 val category = getString(getColumnIndexOrThrow(DatabaseContract.QuoteColumns.CATEGORY))
+                val nama = getString(getColumnIndexOrThrow(DatabaseContract.QuoteColumns.NAMA))
+                val kota = getString(getColumnIndexOrThrow(DatabaseContract.QuoteColumns.KOTA))
                 val date = getString(getColumnIndexOrThrow(DatabaseContract.QuoteColumns.DATE))
-                quotesList.add(Quote(id, title, description,category, date))
+                quotesList.add(Quote(id, title, description,category, nama, kota, date))
             }
         }
         return quotesList

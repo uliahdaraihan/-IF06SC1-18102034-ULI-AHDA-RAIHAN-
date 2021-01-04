@@ -33,6 +33,8 @@ class QuoteAdapter(private val activity: Activity): RecyclerView.Adapter<QuoteAd
             binding.tvItemCategory.text = categoryList[quote.category!!.toInt()]
             binding.tvItemDate.text = quote.date
             binding.tvItemDescription.text = quote.description
+            binding.tvItemNama.text = quote.nama
+            binding.tvItemKota.text = quote.kota
 
             binding.cvItemQuote.setOnClickListener{
                 val intent = Intent(activity, QuoteAddUpdateActivity::class.java)

@@ -16,7 +16,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/title"
             android:inputType="textCapSentences"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:autofillHints="" />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -28,7 +29,34 @@
             android:layout_height="wrap_content"
             android:hint="@string/description"
             android:inputType="textCapSentences"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nama"
+            android:inputType="textCapSentences"
+            android:maxLines="1"
+            android:autofillHints="" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <EditText
+            android:id="@+id/edt_kota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kota"
+            android:inputType="textCapSentences"
+            android:maxLines="1"
+            android:autofillHints="" />
     </com.google.android.material.textfield.TextInputLayout>
     <TextView
         android:id="@+id/tv_cateogry"

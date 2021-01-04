@@ -8,12 +8,14 @@ import com.uliahdaraihan_18102034.praktikum10.db.DatabaseContract.QuoteColumns.C
 internal class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     companion object {
         private const val DATABASE_NAME = "dbquoteapp"
-        private const val DATABASE_VERSION = 1
+        private const val DATABASE_VERSION = 2
         private const val SQL_CREATE_TABLE_QUOTE = "CREATE TABLE $TABLE_QUOTE" +
                 " (${DatabaseContract.QuoteColumns._ID} INTEGER PRIMARY KEY AUTOINCREMENT,"+
                 " ${DatabaseContract.QuoteColumns.TITLE} TEXT NOT NULL," +
                 " ${DatabaseContract.QuoteColumns.DESCRIPTION} TEXT NOT NULL," +
                 " ${DatabaseContract.QuoteColumns.CATEGORY} TEXT NOT NULL," +
+                " ${DatabaseContract.QuoteColumns.NAMA} TEXT NOT NULL,"+
+                " ${DatabaseContract.QuoteColumns.KOTA} TEXT NOT NULL,"+
                 " ${DatabaseContract.QuoteColumns.DATE} TEXT NOT NULL)"
     }
     override fun onCreate(db: SQLiteDatabase?) {
