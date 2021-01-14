@@ -7,6 +7,7 @@ import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
 import androidx.core.view.isVisible
+import com.bumptech.glide.Glide
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -110,6 +111,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             if(TextUtils.isEmpty(name)){
                 binding.tvName.text = "No Name"
             }
+
+            if(photoUrl !== null){
+                Glide.with(this).load(photoUrl).into(binding.ivImage)
+
             binding.tvUserId.text = email
             for (profile in it.providerData) {
                 val providerId = profile.providerId
@@ -121,6 +126,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     binding.tvUserId.text = providerId
                 }
             }
+        }
+
         }
     }
 }
