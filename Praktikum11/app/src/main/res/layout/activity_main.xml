@@ -15,7 +15,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/tvName"
@@ -67,5 +68,14 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnEmailVerify" />
+
+    <Button
+        android:id="@+id/btnDashboardQuote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quotes"
+        app:layout_constraintEnd_toEndOf="@+id/btnSignOut"
+        app:layout_constraintStart_toStartOf="@+id/btnSignOut"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignOut" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
