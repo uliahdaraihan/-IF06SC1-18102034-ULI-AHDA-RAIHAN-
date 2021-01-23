@@ -78,7 +78,7 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
     private fun getCategories(): ArrayList<String> {
         progressbar.visibility = View.VISIBLE
         firestore.collection("categories")
-                .whereEqualTo("is_active", true)
+                //.whereEqualTo("is_active", true)
                 .get()
                 .addOnSuccessListener { documents ->
                     var selection = 0;
