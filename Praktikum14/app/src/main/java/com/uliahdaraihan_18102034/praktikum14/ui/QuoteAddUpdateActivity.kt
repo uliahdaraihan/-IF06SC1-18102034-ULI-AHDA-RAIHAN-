@@ -122,7 +122,7 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener, MainVi
                 if (isDialogClose) {
                     finish()
                 } else {
-
+                    presenter.deleteQuote(token.token.toString(),quote?.quote_id.toString())
                 }
             }
             .setNegativeButton("Tidak") { dialog, _ -> dialog.cancel() }
