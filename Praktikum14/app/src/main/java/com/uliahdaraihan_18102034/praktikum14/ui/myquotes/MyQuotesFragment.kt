@@ -1,4 +1,4 @@
-package com.uliahdaraihan_18102034.praktikum14.ui.home
+package com.uliahdaraihan_18102034.praktikum14.ui.myquotes
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.uliahdaraihan_18102034.praktikum14.R
 
-class HomeFragment : Fragment() {
+class MyQuotesFragment : Fragment() {
 
     private lateinit var homeViewModel: HomeViewModel
 
@@ -21,7 +21,7 @@ class HomeFragment : Fragment() {
     ): View? {
         homeViewModel =
                 ViewModelProvider(this).get(HomeViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
+        val root = inflater.inflate(R.layout.fragment_my_quotes, container, false)
         val textView: TextView = root.findViewById(R.id.text_home)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
